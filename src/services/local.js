@@ -1,5 +1,5 @@
-const USER_ID_KEY = 'escritorio-pagarme-user-id'
-const USER_PROFILE_KEY = 'escritorio-pagarme-user-profile'
+const USER_ID_KEY = 'taller-escritorio-teste-user-id'
+const USER_PROFILE_KEY = 'taller-escritorio-teste-user-profile'
 
 export function getUserId () {
   return window.localStorage.getItem(USER_ID_KEY)

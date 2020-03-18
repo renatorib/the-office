@@ -3,11 +3,13 @@ import 'firebase/database'
 import 'firebase/auth'
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyAzIRaAavq_t2GESw0QkWqIOj4EXKSJt_k',
-  databaseURL: 'https://pagarme-escritorio.firebaseio.com/',
-  projectId: 'project-637593188501',
-  authDomain: 'pagarme-escritorio.firebaseapp.com',
-  appId: '1:637593188501:web:c7b9d7d3c4f7d369',
+  apiKey: "AIzaSyDx0DYPPvEkoRdIKChcVsO8ktbGCqK-7QU",
+  authDomain: "taller-escritorio-teste.firebaseapp.com",
+  databaseURL: "https://taller-escritorio-teste.firebaseio.com",
+  projectId: "taller-escritorio-teste",
+  storageBucket: "taller-escritorio-teste.appspot.com",
+  messagingSenderId: "81373426408",
+  appId: "1:81373426408:web:4d9063d0a9c48725cb4f5d"
 })
 
 const googleAuth = new firebase.auth.GoogleAuthProvider()

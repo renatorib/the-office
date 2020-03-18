@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/8251208/62000501-f7d15500-b0ae-11e9-9bb7-a7e8c93174b7.png" width="75%">
-</p>
-
-<h1 align="center">Escritório Pagarme</h1>
+<h1 align="center">Escritório Taller</h1>
 
 <p align="center">
   <sub>
@@ -34,7 +30,7 @@ O projeto tem como uma das premissas utilizar tecnologias ultra modernas e não 
 
 ## Como utilizar
 
-O projeto está hospedado em <a href="https://escritorio.pagar.me" target="_blank">escritorio.pagar.me</a> entretanto para poder prosseguir com o login é necessário possuir um domínio do grupo Stone.co.
+O projeto está hospedado em <a href="https://taller-escritorio-teste.firebaseapp.com/#/rooms/vingadores" target="_blank">escritorio Taller</a> entretanto para poder prosseguir com o login é necessário possuir um domínio do grupo Stone.co.
 
 ### Rodando localmente
 

@@ -52,7 +52,7 @@
     }
 
     const domain = 'meet.jit.si'
-    const options = getMeetingOptions(`escritorio-pagarme-${activeRoom}`)
+    const options = getMeetingOptions(`escritorio-taller-${activeRoom}`)
     const userProfile = getUserProfile()
 
     setTimeout(() => {

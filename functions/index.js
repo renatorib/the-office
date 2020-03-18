@@ -8,10 +8,7 @@ const userOnlineRef = functions.database.ref('/users/{userId}/online')
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 const allowedDomains = [
-  'pagar.me',
-  'stone.co',
-  'stone.com.br',
-  'mundipagg.com',
+  'taller.net.br',
 ]
 
 exports.removeFromRooms = userOnlineRef.onUpdate((change, context) => {

@@ -11,10 +11,7 @@
   import { Users } from '../models'
 
   const allowedDomains = [
-    'pagar.me',
-    'stone.co',
-    'stone.com.br',
-    'mundipagg.com',
+    'taller.net.br'
   ]
 
   function login () {

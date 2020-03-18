@@ -102,14 +102,7 @@
     <li class="f-right">
       <a
         class="default-link"
-        href="https://pagarme.slack.com/messages/CLZDPELNM"
-        target="_blank"
-      >
-        <img class="slack" src="images/slack.png" alt="slack logo" width="50" />
-      </a>
-      <a
-        class="default-link"
-        href="https://github.com/pagarme/the-office"
+        href="https://github.com/uselessdev/the-office"
         target="_blank"
       >
         <i class="nes-icon github is-medium" />

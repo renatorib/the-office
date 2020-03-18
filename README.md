@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/8251208/62000501-f7d15500-b0ae-11e9-9bb7-a7e8c93174b7.png" width="75%">
-</p>
-
 <h1 align="center">The Office</h1>
 
 <p align="center">
@@ -34,7 +30,7 @@ The initial goal of the project was to try out and learn most modern techs and f
 
 ## Usage
 
-The project is currently hosted at <a href="https://escritorio.pagar.me" target="_blank">escritorio.pagar.me</a> therefore to proceed to login you'll need a Stone.co valid domain.
+The project is currently hosted at <a href="https://taller-escritorio-teste.firebaseapp.com/#/rooms/vingadores" target="_blank">escritorio.Taller</a> therefore to proceed to login you'll need a Taller valid domain.
 
 ### Local development
 
@@ -56,11 +52,11 @@ The project is currently hosted at <a href="https://escritorio.pagar.me" target=
 #### Setting up Firebase
 1. Create a new firebase project at [Firebase console](https://console.firebase.google.com/).
 2. Add a new Web app to your Firebase project.
-3. Copy the project credentials to [`src/services/firebase.js`](https://github.com/pagarme/the-office/blob/master/src/services/firebase.js#L5)
+3. Copy the project credentials to [`src/services/firebase.js`](https://github.com/uselessdev/the-office/blob/master/src/services/firebase.js#L5)
 4. Inside your project, go to `Authentication` and then to `Configure login method`, and turn on Google auth.
-5. Copy the project public name and paste it on [`src/services/firebase.js`](https://github.com/pagarme/the-office/blob/master/src/services/firebase.js#L8) on the key `projectId`.
+5. Copy the project public name and paste it on [`src/services/firebase.js`](https://github.com/uselessdev/the-office/blob/master/src/services/firebase.js#L8) on the key `projectId`.
 6. Go to Database and create a new one
-7. After created select the `Realtime Database` option and set up your write and read rules which can be found at [database.rules.json](https://github.com/pagarme/the-office/blob/master/database.rules.json).
+7. After created select the `Realtime Database` option and set up your write and read rules which can be found at [database.rules.json](https://github.com/uselessdev/the-office/blob/master/database.rules.json).
 
 and now we are done :)
 
